@@ -1,0 +1,76 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+
+    ul {
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+    }
+
+    .logo {
+        
+
+         width: 56px;
+         height: 56px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        
+    }
+
+    a {
+        color: #222222;
+        text-decoration: none;
+    }
+
+    .reges {
+        display: flex;
+
+        .bolim {
+            display: flex;
+            gap: 20px;
+
+            .regester {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background-color: #f3fbf8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .icon1 {
+                    font-size: 20px;
+                }
+            }
+
+            .korz {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background-color: #f3fbf8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        button {
+            padding: 10px 23px;
+            border-radius: 8px;
+            background-color: #09a66d;
+            margin-left: 32px;
+            border: none;
+            color: #fff;
+        }
+    }
+}

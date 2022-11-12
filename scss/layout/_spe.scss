@@ -1,0 +1,65 @@
+.s2 {
+    background: rgba(9, 166, 109, 0.05);
+    height: 832px;
+
+    .special {
+        position: relative;
+        .right-side{
+            margin-top: -70px;
+        }
+
+        .fff {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 229px;
+
+            .si {
+                margin-top: 88px;
+            }
+
+            .st {
+                h2 {
+                    width: 556.98px;
+                    font-size: 60px;
+                }
+
+                p {
+                    width: 490px;
+                    margin-top: 20px;
+                    color: #555;
+                }
+            }
+        }
+
+        .bir {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 180px;
+            margin-top: 50px;
+
+            .aylana {
+                display: block;
+                width: 64px;
+                height: 64px;
+                background-color: seagreen;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    font-size: 30px;
+                    color:#fff
+                }
+            }
+
+        }
+        .bg{
+            position: absolute;
+            right:  -100px;
+            bottom: -100px;
+        }
+    }
+}
